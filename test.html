@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>javascript</title>
+       
+        <link rel="stylesheet" href="test.css">
+    </head>
+    <body>
+        <img onmouseover="changeImg()" onmouseout="oldImg()" id="image"
+            src="https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_620/MTg4MTYzMzg1MzU4MzYyNDEw/the-top-10-worst-dictators-in-history.webp"
+            style="width:200px;" alt="">
+        <p id="para1">this is some text to test </p>
+        <p id="para2"> this second paragraph</p>
+        <p id="para3">this third paragraph</p>
+        <p class="para">this is a paragraph</p>
+        <p class="para">this is a paragraph</p>
+        <button onclick="changeStyle()">submit</button>
+        <div class="div1">
+            <p>
+                Adolf Hitler ( 20 April 1889 – 30 April 1945)
+                was an Austrian-born German politician who
+                was dictator of Germany from 1933 until his
+                death in 1945. He rose to power as the leader of
+                the Nazi Party,[a] becoming the chancellor in 1933 and then
+                taking the title of Führer und Reichskanzler
+                in 1934.[b] During his dictatorship, he initiated World War II
+                in Europe by invading Poland on 1 September
+                1939. He was closely involved in military operations throughout
+                the war and was central
+                perpetration of the Holocaust,
+                the genocide of about six million Jews and millions
+                of other victims. <span id="more">Hitler was born in Braunau
+                    am Inn in Austria-Hungary and was raised near Linz. He lived
+                    in Vienna later in the first decade of the 1900s and moved
+                    to Germany in 1913. He was decorated during his service in
+                    the German Army in World War I. In 1919, he joined the
+                    German Workers' Party (DAP), the precursor of the Nazi
+                    Party, and was appointed leader of the Nazi Party in 1921.
+                    In 1923, he attempted to seize governmental power in a
+                    failed coup in Munich and was imprisoned with a sentence of
+                    five years. In jail, he dictated the first volume of his
+                    autobiography and political manifesto Mein Kampf ("My
+                    Struggle"). After his earl
+                    release in 1924, Hitler gained popular support by attacking
+                    the Treaty of Versailles and promoting pan-Germanism,
+                    anti-Semitism
+                    and anti-communism with charismatic oratory and Nazi
+                    propaganda.
+                    He frequently denonced international capitalism
+                    and communism as art of a Jewish
+                    conspiracy.</span>
+            </p>
+            <button id="read" onclick="moreText()">Read more</button>
+        </div>
+
+        <h2>FILL THE INFORMATION</h2>
+        <form id="theform" action=message.html method="post" onsubmit="return validateTextbox()">
+
+
+            <div class="row">
+                <label for="name">Name: </label>
+                <input type="text" id="name"> <br><br>
+            </div>
+
+
+            <div class="row">
+                <label for="address">Address: </label>
+                <input type="text" id="address"> <br><br>
+            </div>
+
+
+            <div class="row">
+                <label for="phone">Phone: </label>
+                <input type="tel" id="phone"><br><br>
+            </div>
+
+
+            <div class="row">
+                <label for="email">Email: </label>
+                <input type="email" id="email">
+            </div>
+            <br>
+            <input type="submit" value="submit">
+        </form>
+
+        <button onclick="changeSite()">to change site</button>
+
+        <script src="test.js">
+            //document.write("hello world\n"+"how are you");
+            //var day="warning";
+            //document.write(day);
+            //alert(day);
+        </script>
+    </body>
+</html>
