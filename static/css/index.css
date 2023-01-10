@@ -1,0 +1,64 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.navbar > a,h3{
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding: 15px 35px; 
+    text-decoration: none;
+}
+.navbar >a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.container{
+    margin-top:50px;;
+    display: flex;
+    /* background-color: blue; */
+    justify-content:flex-end;
+}
+
+.container > div{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.welcome h2{
+    color: rgb(128, 40, 211);
+    margin-bottom :10%;;
+}
+
+.welcome a{
+    margin-left: 25%;
+}
+
+
+.welcome input{
+    color: white;
+    background-color: rgb(111, 33, 185);
+    width: 120px;
+    height: 40px; 
+    border: none;
+    border-radius: 20px;
+}
+
+.welcome input:hover{
+    color: black;
+    background-color:rgb(128, 63, 189) ;
+}
+
+.image{
+   width: 70%;
+}
